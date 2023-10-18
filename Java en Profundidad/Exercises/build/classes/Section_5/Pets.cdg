@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Pets">
+  <ClassDiagramComponents>
+    <Class name="Dog" package="" visibility="public" xPosition="27.0" yPosition="235.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="age" type="int" visibility="private"/>
+        <Field name="race" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="feed" returnType="void" visibility="public"/>
+        <Method name="breathe" returnType="void" visibility="public"/>
+        <Method name="castrate" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Cat" package="" visibility="public" xPosition="423.0" yPosition="235.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="age" type="int" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="feed" returnType="void" visibility="public"/>
+        <Method name="sleep" returnType="void" visibility="public"/>
+        <Method name="climb" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Fish" package="" visibility="public" xPosition="780.0" yPosition="235.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="colors" type="String" visibility="private"/>
+        <Field name="type" type="String" visibility="private"/>
+        <Field name="cleanWater" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="feed" returnType="void" visibility="public"/>
+        <Method name="clearWater" returnType="void" visibility="public"/>
+        <Method name="swim" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
